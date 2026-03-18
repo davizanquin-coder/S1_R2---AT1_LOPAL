@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exercicio4"/>
+        <attribute name="authors" value="I1D46B"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-18 02:24:45 "/>
+        <attribute name="created" value="STFENDZCO0VDRlA1MDdEMTI2MzYwNzsyMDI2LTAzLTE4OyIwMjoyMDowMiAiOzI0MTY="/>
+        <attribute name="edited" value="STFENDZCO0VDRlA1MDdEMTI2MzYwNzsyMDI2LTAzLTE4OyIwMjoyNDo0NSAiOzE7MjUzNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Numero" type="Integer" array="False" size=""/>
+            <assign variable="Numero" expression="0"/>
+            <output expression="&quot;Insira um n&#250;mero&quot;" newline="True"/>
+            <input variable="Numero"/>
+            <if expression="Numero=0">
+                <then>
+                    <output expression="&quot;N&#250;mero n&#227;o &#233; nem positivo nem negativo, &#233; zero.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="Numero&gt;0">
+                        <then>
+                            <output expression="&quot;N&#250;mero &#233; positivo&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;N&#250;mero &#233; negativo&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
